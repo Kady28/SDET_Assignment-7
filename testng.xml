@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGExampleSuite">
+    <test name="CheckboxTests">
+        <groups>
+            <run>
+                <include name="Checkbox"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNGExample"/>
+        </classes>
+    </test>
+    <test name="RadioButtonTests">
+        <groups>
+            <run>
+                <include name="RadioButton"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNGExample"/>
+        </classes>
+    </test>
+</suite>
